@@ -1,0 +1,27 @@
+.videos_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	gap: 25px;
+}
+
+h1#unique {
+	color: white;
+	font-size: 2rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	text-decoration: solid underline 2px red;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	text-underline-offset: 10px;
+}
+
+.videos_container iframe {
+	width: 30%;
+	height: 300px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
