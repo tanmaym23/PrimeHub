@@ -1,7 +1,7 @@
 .card {
 	display: inline-block;
 	transition: transform 0.2s;
-	position: relative;
+	
 	border-radius: 10px;
 	overflow: hidden;
 	margin: 0.19rem;
