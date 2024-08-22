@@ -1,6 +1,15 @@
-/* Mobile-first styles */
 .home-container {
-  padding: 16px; /* Add some spacing around the content */
+  padding: 16px;
+  display: flex;
+  flex-direction: column; /* Stack components vertically */
+  align-items: center; /* Center horizontally */
+}
+
+/* Style adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+  .home-container {
+    padding: 12px; /* Smaller padding for mobile */
+  }
 }
 
 /* Enhance styles for larger screens (e.g., tablets and desktops) */
