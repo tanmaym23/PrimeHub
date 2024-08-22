@@ -364,16 +364,29 @@ a > span:hover::before {
 	color: white;
 }
 @media screen and (max-width: 768px) {
-  /* Adjust styles for screens up to 768px wide */
   .header {
-    flex-direction: column; /* Stack items vertically */
-    height: auto; /* Allow height to adjust based on content */
+    flex-direction: column;
+    padding: 12px;
   }
-
   .headerLeft,
   .headerRight {
-    margin: 1rem 0; /* Add spacing between header sections */
+    margin-bottom: 12px;
   }
+}
 
-  /* Adjust other styles as needed */
+/* Style adjustments for tablets (e.g., iPad) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .headerLeft h1 {
+    font-size: 20px; /* Slightly smaller font for tablets */
+  }
+}
+
+/* Style adjustments for larger screens (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  .header {
+    padding: 24px; /* More spacing for desktops */
+  }
+  .headerLeft h1 {
+    font-size: 28px; /* Larger font for desktops */
+  }
 }
