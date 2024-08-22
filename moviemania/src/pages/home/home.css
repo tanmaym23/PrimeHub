@@ -1,0 +1,12 @@
+/* Mobile-first styles */
+.home-container {
+  padding: 16px; /* Add some spacing around the content */
+}
+
+/* Enhance styles for larger screens (e.g., tablets and desktops) */
+@media screen and (min-width: 768px) {
+  .home-container {
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+}
